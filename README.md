@@ -9,3 +9,5 @@ like:
 `30 23 * * * /path/to/backup.sh`
 
 to take automatic backups of code and db everyday at 11:30 PM.
+
+**NOTE** : DO NOT FORGET to chmod 0777 backup.sh or you might see error ./copyfiles.sh: command not found.
